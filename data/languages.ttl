@@ -1,0 +1,561 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix fua_lang: <https://www.nicos-rd.com/data/codes/language#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://www.nicos-rd.com/data/codes/language#> a ldp:Container;
+    ldp:contains fua_lang:aa, fua_lang:ab, fua_lang:af, fua_lang:ak, fua_lang:sq, fua_lang:am, fua_lang:ar, fua_lang:an, fua_lang:hy, fua_lang:as, fua_lang:av, fua_lang:ae, fua_lang:ay, fua_lang:az, fua_lang:ba, fua_lang:bm, fua_lang:eu, fua_lang:be, fua_lang:bn, fua_lang:bh, fua_lang:bi, fua_lang:bs, fua_lang:br, fua_lang:bg, fua_lang:my, fua_lang:ca, fua_lang:ch, fua_lang:ce, fua_lang:zh, fua_lang:cu, fua_lang:cv, fua_lang:kw, fua_lang:co, fua_lang:cr, fua_lang:cs, fua_lang:da, fua_lang:dv, fua_lang:nl, fua_lang:dz, fua_lang:en, fua_lang:eo, fua_lang:et, fua_lang:ee, fua_lang:fo, fua_lang:fj, fua_lang:fi, fua_lang:fr, fua_lang:fy, fua_lang:ff, fua_lang:ka, fua_lang:de, fua_lang:gd, fua_lang:ga, fua_lang:gl, fua_lang:gv, fua_lang:el, fua_lang:gn, fua_lang:gu, fua_lang:ht, fua_lang:ha, fua_lang:he, fua_lang:hz, fua_lang:hi, fua_lang:ho, fua_lang:hr, fua_lang:hu, fua_lang:ig, fua_lang:is, fua_lang:io, fua_lang:ii, fua_lang:iu, fua_lang:ie, fua_lang:ia, fua_lang:id, fua_lang:ik, fua_lang:it, fua_lang:jv, fua_lang:ja, fua_lang:kl, fua_lang:kn, fua_lang:ks, fua_lang:kr, fua_lang:kk, fua_lang:km, fua_lang:ki, fua_lang:rw, fua_lang:ky, fua_lang:kv, fua_lang:kg, fua_lang:ko, fua_lang:kj, fua_lang:ku, fua_lang:lo, fua_lang:la, fua_lang:lv, fua_lang:li, fua_lang:ln, fua_lang:lt, fua_lang:lb, fua_lang:lu, fua_lang:lg, fua_lang:mk, fua_lang:mh, fua_lang:ml, fua_lang:mi, fua_lang:mr, fua_lang:ms, fua_lang:mg, fua_lang:mt, fua_lang:mn, fua_lang:na, fua_lang:nv, fua_lang:nr, fua_lang:nd, fua_lang:ng, fua_lang:ne, fua_lang:nn, fua_lang:nb, fua_lang:no, fua_lang:ny, fua_lang:oc, fua_lang:oj, fua_lang:or, fua_lang:om, fua_lang:os, fua_lang:pa, fua_lang:fa, fua_lang:pi, fua_lang:pl, fua_lang:pt, fua_lang:ps, fua_lang:qu, fua_lang:rm, fua_lang:ro, fua_lang:rn, fua_lang:ru, fua_lang:sg, fua_lang:sa, fua_lang:si, fua_lang:sk, fua_lang:sl, fua_lang:se, fua_lang:sm, fua_lang:sn, fua_lang:sd, fua_lang:so, fua_lang:st, fua_lang:es, fua_lang:sc, fua_lang:sr, fua_lang:ss, fua_lang:su, fua_lang:sw, fua_lang:sv, fua_lang:ty, fua_lang:ta, fua_lang:tt, fua_lang:te, fua_lang:tg, fua_lang:tl, fua_lang:th, fua_lang:bo, fua_lang:ti, fua_lang:to, fua_lang:tn, fua_lang:ts, fua_lang:tk, fua_lang:tr, fua_lang:tw, fua_lang:ug, fua_lang:uk, fua_lang:ur, fua_lang:uz, fua_lang:ve, fua_lang:vi, fua_lang:vo, fua_lang:cy, fua_lang:wa, fua_lang:wo, fua_lang:xh, fua_lang:yi, fua_lang:yo, fua_lang:za, fua_lang:zu.
+fua_lang:aa a ldp:RDFSource;
+    rdfs:label "Afar"@en, "afar"@fr;
+    dc:language "aa"^^xsd:language.
+fua_lang:ab a ldp:RDFSource;
+    rdfs:label "Abkhazian"@en, "abkhaze"@fr;
+    dc:language "ab"^^xsd:language.
+fua_lang:af a ldp:RDFSource;
+    rdfs:label "Afrikaans"@en, "afrikaans"@fr;
+    dc:language "af"^^xsd:language.
+fua_lang:ak a ldp:RDFSource;
+    rdfs:label "Akan"@en, "akan"@fr;
+    dc:language "ak"^^xsd:language.
+fua_lang:sq a ldp:RDFSource;
+    rdfs:label "Albanian"@en, "albanais"@fr;
+    dc:language "sq"^^xsd:language.
+fua_lang:am a ldp:RDFSource;
+    rdfs:label "Amharic"@en, "amharique"@fr;
+    dc:language "am"^^xsd:language.
+fua_lang:ar a ldp:RDFSource;
+    rdfs:label "Arabic"@en, "arabe"@fr;
+    dc:language "ar"^^xsd:language.
+fua_lang:an a ldp:RDFSource;
+    rdfs:label "Aragonese"@en, "aragonais"@fr;
+    dc:language "an"^^xsd:language.
+fua_lang:hy a ldp:RDFSource;
+    rdfs:label "Armenian"@en, "arménien"@fr;
+    dc:language "hy"^^xsd:language.
+fua_lang:as a ldp:RDFSource;
+    rdfs:label "Assamese"@en, "assamais"@fr;
+    dc:language "as"^^xsd:language.
+fua_lang:av a ldp:RDFSource;
+    rdfs:label "Avaric"@en, "avar"@fr;
+    dc:language "av"^^xsd:language.
+fua_lang:ae a ldp:RDFSource;
+    rdfs:label "Avestan"@en, "avestique"@fr;
+    dc:language "ae"^^xsd:language.
+fua_lang:ay a ldp:RDFSource;
+    rdfs:label "Aymara"@en, "aymara"@fr;
+    dc:language "ay"^^xsd:language.
+fua_lang:az a ldp:RDFSource;
+    rdfs:label "Azerbaijani"@en, "azéri"@fr;
+    dc:language "az"^^xsd:language.
+fua_lang:ba a ldp:RDFSource;
+    rdfs:label "Bashkir"@en, "bachkir"@fr;
+    dc:language "ba"^^xsd:language.
+fua_lang:bm a ldp:RDFSource;
+    rdfs:label "Bambara"@en, "bambara"@fr;
+    dc:language "bm"^^xsd:language.
+fua_lang:eu a ldp:RDFSource;
+    rdfs:label "Basque"@en, "basque"@fr;
+    dc:language "eu"^^xsd:language.
+fua_lang:be a ldp:RDFSource;
+    rdfs:label "Belarusian"@en, "biélorusse"@fr;
+    dc:language "be"^^xsd:language.
+fua_lang:bn a ldp:RDFSource;
+    rdfs:label "Bengali"@en, "bengali"@fr;
+    dc:language "bn"^^xsd:language.
+fua_lang:bh a ldp:RDFSource;
+    rdfs:label "Bihari languages"@en, "langues biharis"@fr;
+    dc:language "bh"^^xsd:language.
+fua_lang:bi a ldp:RDFSource;
+    rdfs:label "Bislama"@en, "bichlamar"@fr;
+    dc:language "bi"^^xsd:language.
+fua_lang:bs a ldp:RDFSource;
+    rdfs:label "Bosnian"@en, "bosniaque"@fr;
+    dc:language "bs"^^xsd:language.
+fua_lang:br a ldp:RDFSource;
+    rdfs:label "Breton"@en, "breton"@fr;
+    dc:language "br"^^xsd:language.
+fua_lang:bg a ldp:RDFSource;
+    rdfs:label "Bulgarian"@en, "bulgare"@fr;
+    dc:language "bg"^^xsd:language.
+fua_lang:my a ldp:RDFSource;
+    rdfs:label "Burmese"@en, "birman"@fr;
+    dc:language "my"^^xsd:language.
+fua_lang:ca a ldp:RDFSource;
+    rdfs:label "Catalan; Valencian"@en, "catalan; valencien"@fr;
+    dc:language "ca"^^xsd:language.
+fua_lang:ch a ldp:RDFSource;
+    rdfs:label "Chamorro"@en, "chamorro"@fr;
+    dc:language "ch"^^xsd:language.
+fua_lang:ce a ldp:RDFSource;
+    rdfs:label "Chechen"@en, "tchétchène"@fr;
+    dc:language "ce"^^xsd:language.
+fua_lang:zh a ldp:RDFSource;
+    rdfs:label "Chinese"@en, "chinois"@fr;
+    dc:language "zh"^^xsd:language.
+fua_lang:cu a ldp:RDFSource;
+    rdfs:label "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"@en, "slavon d'église; vieux slave; slavon liturgique; vieux bulgare"@fr;
+    dc:language "cu"^^xsd:language.
+fua_lang:cv a ldp:RDFSource;
+    rdfs:label "Chuvash"@en, "tchouvache"@fr;
+    dc:language "cv"^^xsd:language.
+fua_lang:kw a ldp:RDFSource;
+    rdfs:label "Cornish"@en, "cornique"@fr;
+    dc:language "kw"^^xsd:language.
+fua_lang:co a ldp:RDFSource;
+    rdfs:label "Corsican"@en, "corse"@fr;
+    dc:language "co"^^xsd:language.
+fua_lang:cr a ldp:RDFSource;
+    rdfs:label "Cree"@en, "cree"@fr;
+    dc:language "cr"^^xsd:language.
+fua_lang:cs a ldp:RDFSource;
+    rdfs:label "Czech"@en, "tchèque"@fr;
+    dc:language "cs"^^xsd:language.
+fua_lang:da a ldp:RDFSource;
+    rdfs:label "Danish"@en, "danois"@fr;
+    dc:language "da"^^xsd:language.
+fua_lang:dv a ldp:RDFSource;
+    rdfs:label "Divehi; Dhivehi; Maldivian"@en, "maldivien"@fr;
+    dc:language "dv"^^xsd:language.
+fua_lang:nl a ldp:RDFSource;
+    rdfs:label "Dutch; Flemish"@en, "néerlandais; flamand"@fr;
+    dc:language "nl"^^xsd:language.
+fua_lang:dz a ldp:RDFSource;
+    rdfs:label "Dzongkha"@en, "dzongkha"@fr;
+    dc:language "dz"^^xsd:language.
+fua_lang:en a ldp:RDFSource;
+    rdfs:label "English"@en, "anglais"@fr;
+    dc:language "en"^^xsd:language.
+fua_lang:eo a ldp:RDFSource;
+    rdfs:label "Esperanto"@en, "espéranto"@fr;
+    dc:language "eo"^^xsd:language.
+fua_lang:et a ldp:RDFSource;
+    rdfs:label "Estonian"@en, "estonien"@fr;
+    dc:language "et"^^xsd:language.
+fua_lang:ee a ldp:RDFSource;
+    rdfs:label "Ewe"@en, "éwé"@fr;
+    dc:language "ee"^^xsd:language.
+fua_lang:fo a ldp:RDFSource;
+    rdfs:label "Faroese"@en, "féroïen"@fr;
+    dc:language "fo"^^xsd:language.
+fua_lang:fj a ldp:RDFSource;
+    rdfs:label "Fijian"@en, "fidjien"@fr;
+    dc:language "fj"^^xsd:language.
+fua_lang:fi a ldp:RDFSource;
+    rdfs:label "Finnish"@en, "finnois"@fr;
+    dc:language "fi"^^xsd:language.
+fua_lang:fr a ldp:RDFSource;
+    rdfs:label "French"@en, "français"@fr;
+    dc:language "fr"^^xsd:language.
+fua_lang:fy a ldp:RDFSource;
+    rdfs:label "Western Frisian"@en, "frison occidental"@fr;
+    dc:language "fy"^^xsd:language.
+fua_lang:ff a ldp:RDFSource;
+    rdfs:label "Fulah"@en, "peul"@fr;
+    dc:language "ff"^^xsd:language.
+fua_lang:ka a ldp:RDFSource;
+    rdfs:label "Georgian"@en, "géorgien"@fr;
+    dc:language "ka"^^xsd:language.
+fua_lang:de a ldp:RDFSource;
+    rdfs:label "German"@en, "allemand"@fr;
+    dc:language "de"^^xsd:language.
+fua_lang:gd a ldp:RDFSource;
+    rdfs:label "Gaelic; Scottish Gaelic"@en, "gaélique; gaélique écossais"@fr;
+    dc:language "gd"^^xsd:language.
+fua_lang:ga a ldp:RDFSource;
+    rdfs:label "Irish"@en, "irlandais"@fr;
+    dc:language "ga"^^xsd:language.
+fua_lang:gl a ldp:RDFSource;
+    rdfs:label "Galician"@en, "galicien"@fr;
+    dc:language "gl"^^xsd:language.
+fua_lang:gv a ldp:RDFSource;
+    rdfs:label "Manx"@en, "manx; mannois"@fr;
+    dc:language "gv"^^xsd:language.
+fua_lang:el a ldp:RDFSource;
+    rdfs:label "Greek Modern (1453-)"@en, "grec moderne (après 1453)"@fr;
+    dc:language "el"^^xsd:language.
+fua_lang:gn a ldp:RDFSource;
+    rdfs:label "Guarani"@en, "guarani"@fr;
+    dc:language "gn"^^xsd:language.
+fua_lang:gu a ldp:RDFSource;
+    rdfs:label "Gujarati"@en, "goudjrati"@fr;
+    dc:language "gu"^^xsd:language.
+fua_lang:ht a ldp:RDFSource;
+    rdfs:label "Haitian; Haitian Creole"@en, "haïtien; créole haïtien"@fr;
+    dc:language "ht"^^xsd:language.
+fua_lang:ha a ldp:RDFSource;
+    rdfs:label "Hausa"@en, "haoussa"@fr;
+    dc:language "ha"^^xsd:language.
+fua_lang:he a ldp:RDFSource;
+    rdfs:label "Hebrew"@en, "hébreu"@fr;
+    dc:language "he"^^xsd:language.
+fua_lang:hz a ldp:RDFSource;
+    rdfs:label "Herero"@en, "herero"@fr;
+    dc:language "hz"^^xsd:language.
+fua_lang:hi a ldp:RDFSource;
+    rdfs:label "Hindi"@en, "hindi"@fr;
+    dc:language "hi"^^xsd:language.
+fua_lang:ho a ldp:RDFSource;
+    rdfs:label "Hiri Motu"@en, "hiri motu"@fr;
+    dc:language "ho"^^xsd:language.
+fua_lang:hr a ldp:RDFSource;
+    rdfs:label "Croatian"@en, "croate"@fr;
+    dc:language "hr"^^xsd:language.
+fua_lang:hu a ldp:RDFSource;
+    rdfs:label "Hungarian"@en, "hongrois"@fr;
+    dc:language "hu"^^xsd:language.
+fua_lang:ig a ldp:RDFSource;
+    rdfs:label "Igbo"@en, "igbo"@fr;
+    dc:language "ig"^^xsd:language.
+fua_lang:is a ldp:RDFSource;
+    rdfs:label "Icelandic"@en, "islandais"@fr;
+    dc:language "is"^^xsd:language.
+fua_lang:io a ldp:RDFSource;
+    rdfs:label "Ido"@en, "ido"@fr;
+    dc:language "io"^^xsd:language.
+fua_lang:ii a ldp:RDFSource;
+    rdfs:label "Sichuan Yi; Nuosu"@en, "yi de Sichuan"@fr;
+    dc:language "ii"^^xsd:language.
+fua_lang:iu a ldp:RDFSource;
+    rdfs:label "Inuktitut"@en, "inuktitut"@fr;
+    dc:language "iu"^^xsd:language.
+fua_lang:ie a ldp:RDFSource;
+    rdfs:label "Interlingue; Occidental"@en, "interlingue"@fr;
+    dc:language "ie"^^xsd:language.
+fua_lang:ia a ldp:RDFSource;
+    rdfs:label "Interlingua (International Auxiliary Language Association)"@en, "interlingua (langue auxiliaire internationale)"@fr;
+    dc:language "ia"^^xsd:language.
+fua_lang:id a ldp:RDFSource;
+    rdfs:label "Indonesian"@en, "indonésien"@fr;
+    dc:language "id"^^xsd:language.
+fua_lang:ik a ldp:RDFSource;
+    rdfs:label "Inupiaq"@en, "inupiaq"@fr;
+    dc:language "ik"^^xsd:language.
+fua_lang:it a ldp:RDFSource;
+    rdfs:label "Italian"@en, "italien"@fr;
+    dc:language "it"^^xsd:language.
+fua_lang:jv a ldp:RDFSource;
+    rdfs:label "Javanese"@en, "javanais"@fr;
+    dc:language "jv"^^xsd:language.
+fua_lang:ja a ldp:RDFSource;
+    rdfs:label "Japanese"@en, "japonais"@fr;
+    dc:language "ja"^^xsd:language.
+fua_lang:kl a ldp:RDFSource;
+    rdfs:label "Kalaallisut; Greenlandic"@en, "groenlandais"@fr;
+    dc:language "kl"^^xsd:language.
+fua_lang:kn a ldp:RDFSource;
+    rdfs:label "Kannada"@en, "kannada"@fr;
+    dc:language "kn"^^xsd:language.
+fua_lang:ks a ldp:RDFSource;
+    rdfs:label "Kashmiri"@en, "kashmiri"@fr;
+    dc:language "ks"^^xsd:language.
+fua_lang:kr a ldp:RDFSource;
+    rdfs:label "Kanuri"@en, "kanouri"@fr;
+    dc:language "kr"^^xsd:language.
+fua_lang:kk a ldp:RDFSource;
+    rdfs:label "Kazakh"@en, "kazakh"@fr;
+    dc:language "kk"^^xsd:language.
+fua_lang:km a ldp:RDFSource;
+    rdfs:label "Central Khmer"@en, "khmer central"@fr;
+    dc:language "km"^^xsd:language.
+fua_lang:ki a ldp:RDFSource;
+    rdfs:label "Kikuyu; Gikuyu"@en, "kikuyu"@fr;
+    dc:language "ki"^^xsd:language.
+fua_lang:rw a ldp:RDFSource;
+    rdfs:label "Kinyarwanda"@en, "rwanda"@fr;
+    dc:language "rw"^^xsd:language.
+fua_lang:ky a ldp:RDFSource;
+    rdfs:label "Kirghiz; Kyrgyz"@en, "kirghiz"@fr;
+    dc:language "ky"^^xsd:language.
+fua_lang:kv a ldp:RDFSource;
+    rdfs:label "Komi"@en, "kom"@fr;
+    dc:language "kv"^^xsd:language.
+fua_lang:kg a ldp:RDFSource;
+    rdfs:label "Kongo"@en, "kongo"@fr;
+    dc:language "kg"^^xsd:language.
+fua_lang:ko a ldp:RDFSource;
+    rdfs:label "Korean"@en, "coréen"@fr;
+    dc:language "ko"^^xsd:language.
+fua_lang:kj a ldp:RDFSource;
+    rdfs:label "Kuanyama; Kwanyama"@en, "kuanyama; kwanyama"@fr;
+    dc:language "kj"^^xsd:language.
+fua_lang:ku a ldp:RDFSource;
+    rdfs:label "Kurdish"@en, "kurde"@fr;
+    dc:language "ku"^^xsd:language.
+fua_lang:lo a ldp:RDFSource;
+    rdfs:label "Lao"@en, "lao"@fr;
+    dc:language "lo"^^xsd:language.
+fua_lang:la a ldp:RDFSource;
+    rdfs:label "Latin"@en, "latin"@fr;
+    dc:language "la"^^xsd:language.
+fua_lang:lv a ldp:RDFSource;
+    rdfs:label "Latvian"@en, "letton"@fr;
+    dc:language "lv"^^xsd:language.
+fua_lang:li a ldp:RDFSource;
+    rdfs:label "Limburgan; Limburger; Limburgish"@en, "limbourgeois"@fr;
+    dc:language "li"^^xsd:language.
+fua_lang:ln a ldp:RDFSource;
+    rdfs:label "Lingala"@en, "lingala"@fr;
+    dc:language "ln"^^xsd:language.
+fua_lang:lt a ldp:RDFSource;
+    rdfs:label "Lithuanian"@en, "lituanien"@fr;
+    dc:language "lt"^^xsd:language.
+fua_lang:lb a ldp:RDFSource;
+    rdfs:label "Luxembourgish; Letzeburgesch"@en, "luxembourgeois"@fr;
+    dc:language "lb"^^xsd:language.
+fua_lang:lu a ldp:RDFSource;
+    rdfs:label "Luba-Katanga"@en, "luba-katanga"@fr;
+    dc:language "lu"^^xsd:language.
+fua_lang:lg a ldp:RDFSource;
+    rdfs:label "Ganda"@en, "ganda"@fr;
+    dc:language "lg"^^xsd:language.
+fua_lang:mk a ldp:RDFSource;
+    rdfs:label "Macedonian"@en, "macédonien"@fr;
+    dc:language "mk"^^xsd:language.
+fua_lang:mh a ldp:RDFSource;
+    rdfs:label "Marshallese"@en, "marshall"@fr;
+    dc:language "mh"^^xsd:language.
+fua_lang:ml a ldp:RDFSource;
+    rdfs:label "Malayalam"@en, "malayalam"@fr;
+    dc:language "ml"^^xsd:language.
+fua_lang:mi a ldp:RDFSource;
+    rdfs:label "Maori"@en, "maori"@fr;
+    dc:language "mi"^^xsd:language.
+fua_lang:mr a ldp:RDFSource;
+    rdfs:label "Marathi"@en, "marathe"@fr;
+    dc:language "mr"^^xsd:language.
+fua_lang:ms a ldp:RDFSource;
+    rdfs:label "Malay"@en, "malais"@fr;
+    dc:language "ms"^^xsd:language.
+fua_lang:mg a ldp:RDFSource;
+    rdfs:label "Malagasy"@en, "malgache"@fr;
+    dc:language "mg"^^xsd:language.
+fua_lang:mt a ldp:RDFSource;
+    rdfs:label "Maltese"@en, "maltais"@fr;
+    dc:language "mt"^^xsd:language.
+fua_lang:mn a ldp:RDFSource;
+    rdfs:label "Mongolian"@en, "mongol"@fr;
+    dc:language "mn"^^xsd:language.
+fua_lang:na a ldp:RDFSource;
+    rdfs:label "Nauru"@en, "nauruan"@fr;
+    dc:language "na"^^xsd:language.
+fua_lang:nv a ldp:RDFSource;
+    rdfs:label "Navajo; Navaho"@en, "navaho"@fr;
+    dc:language "nv"^^xsd:language.
+fua_lang:nr a ldp:RDFSource;
+    rdfs:label "Ndebele South; South Ndebele"@en, "ndébélé du Sud"@fr;
+    dc:language "nr"^^xsd:language.
+fua_lang:nd a ldp:RDFSource;
+    rdfs:label "Ndebele North; North Ndebele"@en, "ndébélé du Nord"@fr;
+    dc:language "nd"^^xsd:language.
+fua_lang:ng a ldp:RDFSource;
+    rdfs:label "Ndonga"@en, "ndonga"@fr;
+    dc:language "ng"^^xsd:language.
+fua_lang:ne a ldp:RDFSource;
+    rdfs:label "Nepali"@en, "népalais"@fr;
+    dc:language "ne"^^xsd:language.
+fua_lang:nn a ldp:RDFSource;
+    rdfs:label "Norwegian Nynorsk; Nynorsk Norwegian"@en, "norvégien nynorsk; nynorsk norvégien"@fr;
+    dc:language "nn"^^xsd:language.
+fua_lang:nb a ldp:RDFSource;
+    rdfs:label "Bokmål Norwegian; Norwegian Bokmål"@en, "norvégien bokmål"@fr;
+    dc:language "nb"^^xsd:language.
+fua_lang:no a ldp:RDFSource;
+    rdfs:label "Norwegian"@en, "norvégien"@fr;
+    dc:language "no"^^xsd:language.
+fua_lang:ny a ldp:RDFSource;
+    rdfs:label "Chichewa; Chewa; Nyanja"@en, "chichewa; chewa; nyanja"@fr;
+    dc:language "ny"^^xsd:language.
+fua_lang:oc a ldp:RDFSource;
+    rdfs:label "Occitan (post 1500)"@en, "occitan (après 1500)"@fr;
+    dc:language "oc"^^xsd:language.
+fua_lang:oj a ldp:RDFSource;
+    rdfs:label "Ojibwa"@en, "ojibwa"@fr;
+    dc:language "oj"^^xsd:language.
+fua_lang:or a ldp:RDFSource;
+    rdfs:label "Oriya"@en, "oriya"@fr;
+    dc:language "or"^^xsd:language.
+fua_lang:om a ldp:RDFSource;
+    rdfs:label "Oromo"@en, "galla"@fr;
+    dc:language "om"^^xsd:language.
+fua_lang:os a ldp:RDFSource;
+    rdfs:label "Ossetian; Ossetic"@en, "ossète"@fr;
+    dc:language "os"^^xsd:language.
+fua_lang:pa a ldp:RDFSource;
+    rdfs:label "Panjabi; Punjabi"@en, "pendjabi"@fr;
+    dc:language "pa"^^xsd:language.
+fua_lang:fa a ldp:RDFSource;
+    rdfs:label "Persian"@en, "persan"@fr;
+    dc:language "fa"^^xsd:language.
+fua_lang:pi a ldp:RDFSource;
+    rdfs:label "Pali"@en, "pali"@fr;
+    dc:language "pi"^^xsd:language.
+fua_lang:pl a ldp:RDFSource;
+    rdfs:label "Polish"@en, "polonais"@fr;
+    dc:language "pl"^^xsd:language.
+fua_lang:pt a ldp:RDFSource;
+    rdfs:label "Portuguese"@en, "portugais"@fr;
+    dc:language "pt"^^xsd:language.
+fua_lang:ps a ldp:RDFSource;
+    rdfs:label "Pushto; Pashto"@en, "pachto"@fr;
+    dc:language "ps"^^xsd:language.
+fua_lang:qu a ldp:RDFSource;
+    rdfs:label "Quechua"@en, "quechua"@fr;
+    dc:language "qu"^^xsd:language.
+fua_lang:rm a ldp:RDFSource;
+    rdfs:label "Romansh"@en, "romanche"@fr;
+    dc:language "rm"^^xsd:language.
+fua_lang:ro a ldp:RDFSource;
+    rdfs:label "Romanian; Moldavian; Moldovan"@en, "roumain; moldave"@fr;
+    dc:language "ro"^^xsd:language.
+fua_lang:rn a ldp:RDFSource;
+    rdfs:label "Rundi"@en, "rundi"@fr;
+    dc:language "rn"^^xsd:language.
+fua_lang:ru a ldp:RDFSource;
+    rdfs:label "Russian"@en, "russe"@fr;
+    dc:language "ru"^^xsd:language.
+fua_lang:sg a ldp:RDFSource;
+    rdfs:label "Sango"@en, "sango"@fr;
+    dc:language "sg"^^xsd:language.
+fua_lang:sa a ldp:RDFSource;
+    rdfs:label "Sanskrit"@en, "sanskrit"@fr;
+    dc:language "sa"^^xsd:language.
+fua_lang:si a ldp:RDFSource;
+    rdfs:label "Sinhala; Sinhalese"@en, "singhalais"@fr;
+    dc:language "si"^^xsd:language.
+fua_lang:sk a ldp:RDFSource;
+    rdfs:label "Slovak"@en, "slovaque"@fr;
+    dc:language "sk"^^xsd:language.
+fua_lang:sl a ldp:RDFSource;
+    rdfs:label "Slovenian"@en, "slovène"@fr;
+    dc:language "sl"^^xsd:language.
+fua_lang:se a ldp:RDFSource;
+    rdfs:label "Northern Sami"@en, "sami du Nord"@fr;
+    dc:language "se"^^xsd:language.
+fua_lang:sm a ldp:RDFSource;
+    rdfs:label "Samoan"@en, "samoan"@fr;
+    dc:language "sm"^^xsd:language.
+fua_lang:sn a ldp:RDFSource;
+    rdfs:label "Shona"@en, "shona"@fr;
+    dc:language "sn"^^xsd:language.
+fua_lang:sd a ldp:RDFSource;
+    rdfs:label "Sindhi"@en, "sindhi"@fr;
+    dc:language "sd"^^xsd:language.
+fua_lang:so a ldp:RDFSource;
+    rdfs:label "Somali"@en, "somali"@fr;
+    dc:language "so"^^xsd:language.
+fua_lang:st a ldp:RDFSource;
+    rdfs:label "Sotho Southern"@en, "sotho du Sud"@fr;
+    dc:language "st"^^xsd:language.
+fua_lang:es a ldp:RDFSource;
+    rdfs:label "Spanish; Castilian"@en, "espagnol; castillan"@fr;
+    dc:language "es"^^xsd:language.
+fua_lang:sc a ldp:RDFSource;
+    rdfs:label "Sardinian"@en, "sarde"@fr;
+    dc:language "sc"^^xsd:language.
+fua_lang:sr a ldp:RDFSource;
+    rdfs:label "Serbian"@en, "serbe"@fr;
+    dc:language "sr"^^xsd:language.
+fua_lang:ss a ldp:RDFSource;
+    rdfs:label "Swati"@en, "swati"@fr;
+    dc:language "ss"^^xsd:language.
+fua_lang:su a ldp:RDFSource;
+    rdfs:label "Sundanese"@en, "soundanais"@fr;
+    dc:language "su"^^xsd:language.
+fua_lang:sw a ldp:RDFSource;
+    rdfs:label "Swahili"@en, "swahili"@fr;
+    dc:language "sw"^^xsd:language.
+fua_lang:sv a ldp:RDFSource;
+    rdfs:label "Swedish"@en, "suédois"@fr;
+    dc:language "sv"^^xsd:language.
+fua_lang:ty a ldp:RDFSource;
+    rdfs:label "Tahitian"@en, "tahitien"@fr;
+    dc:language "ty"^^xsd:language.
+fua_lang:ta a ldp:RDFSource;
+    rdfs:label "Tamil"@en, "tamoul"@fr;
+    dc:language "ta"^^xsd:language.
+fua_lang:tt a ldp:RDFSource;
+    rdfs:label "Tatar"@en, "tatar"@fr;
+    dc:language "tt"^^xsd:language.
+fua_lang:te a ldp:RDFSource;
+    rdfs:label "Telugu"@en, "télougou"@fr;
+    dc:language "te"^^xsd:language.
+fua_lang:tg a ldp:RDFSource;
+    rdfs:label "Tajik"@en, "tadjik"@fr;
+    dc:language "tg"^^xsd:language.
+fua_lang:tl a ldp:RDFSource;
+    rdfs:label "Tagalog"@en, "tagalog"@fr;
+    dc:language "tl"^^xsd:language.
+fua_lang:th a ldp:RDFSource;
+    rdfs:label "Thai"@en, "thaï"@fr;
+    dc:language "th"^^xsd:language.
+fua_lang:bo a ldp:RDFSource;
+    rdfs:label "Tibetan"@en, "tibétain"@fr;
+    dc:language "bo"^^xsd:language.
+fua_lang:ti a ldp:RDFSource;
+    rdfs:label "Tigrinya"@en, "tigrigna"@fr;
+    dc:language "ti"^^xsd:language.
+fua_lang:to a ldp:RDFSource;
+    rdfs:label "Tonga (Tonga Islands)"@en, "tongan (Îles Tonga)"@fr;
+    dc:language "to"^^xsd:language.
+fua_lang:tn a ldp:RDFSource;
+    rdfs:label "Tswana"@en, "tswana"@fr;
+    dc:language "tn"^^xsd:language.
+fua_lang:ts a ldp:RDFSource;
+    rdfs:label "Tsonga"@en, "tsonga"@fr;
+    dc:language "ts"^^xsd:language.
+fua_lang:tk a ldp:RDFSource;
+    rdfs:label "Turkmen"@en, "turkmène"@fr;
+    dc:language "tk"^^xsd:language.
+fua_lang:tr a ldp:RDFSource;
+    rdfs:label "Turkish"@en, "turc"@fr;
+    dc:language "tr"^^xsd:language.
+fua_lang:tw a ldp:RDFSource;
+    rdfs:label "Twi"@en, "twi"@fr;
+    dc:language "tw"^^xsd:language.
+fua_lang:ug a ldp:RDFSource;
+    rdfs:label "Uighur; Uyghur"@en, "ouïgour"@fr;
+    dc:language "ug"^^xsd:language.
+fua_lang:uk a ldp:RDFSource;
+    rdfs:label "Ukrainian"@en, "ukrainien"@fr;
+    dc:language "uk"^^xsd:language.
+fua_lang:ur a ldp:RDFSource;
+    rdfs:label "Urdu"@en, "ourdou"@fr;
+    dc:language "ur"^^xsd:language.
+fua_lang:uz a ldp:RDFSource;
+    rdfs:label "Uzbek"@en, "ouszbek"@fr;
+    dc:language "uz"^^xsd:language.
+fua_lang:ve a ldp:RDFSource;
+    rdfs:label "Venda"@en, "venda"@fr;
+    dc:language "ve"^^xsd:language.
+fua_lang:vi a ldp:RDFSource;
+    rdfs:label "Vietnamese"@en, "vietnamien"@fr;
+    dc:language "vi"^^xsd:language.
+fua_lang:vo a ldp:RDFSource;
+    rdfs:label "Volapük"@en, "volapük"@fr;
+    dc:language "vo"^^xsd:language.
+fua_lang:cy a ldp:RDFSource;
+    rdfs:label "Welsh"@en, "gallois"@fr;
+    dc:language "cy"^^xsd:language.
+fua_lang:wa a ldp:RDFSource;
+    rdfs:label "Walloon"@en, "wallon"@fr;
+    dc:language "wa"^^xsd:language.
+fua_lang:wo a ldp:RDFSource;
+    rdfs:label "Wolof"@en, "wolof"@fr;
+    dc:language "wo"^^xsd:language.
+fua_lang:xh a ldp:RDFSource;
+    rdfs:label "Xhosa"@en, "xhosa"@fr;
+    dc:language "xh"^^xsd:language.
+fua_lang:yi a ldp:RDFSource;
+    rdfs:label "Yiddish"@en, "yiddish"@fr;
+    dc:language "yi"^^xsd:language.
+fua_lang:yo a ldp:RDFSource;
+    rdfs:label "Yoruba"@en, "yoruba"@fr;
+    dc:language "yo"^^xsd:language.
+fua_lang:za a ldp:RDFSource;
+    rdfs:label "Zhuang; Chuang"@en, "zhuang; chuang"@fr;
+    dc:language "za"^^xsd:language.
+fua_lang:zu a ldp:RDFSource;
+    rdfs:label "Zulu"@en, "zoulou"@fr;
+    dc:language "zu"^^xsd:language.
