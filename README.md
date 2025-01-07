@@ -1,4 +1,4 @@
-# @nrd/fua.resource.universe.language
+# @fua/resource.universe.language
 
 - **Model:** [`languages.ttl`](data/languages.ttl)
 - **Source:** [`languages.csv`](data/languages.csv)
